@@ -1,0 +1,11 @@
+<h2>Sorry page is disabled:</h2>
+
+<p2><b>Responder policy name</b>: sorry_page</p2>
+<br>
+<p2><b>Virtual server name</b>: {{ vserver }}</p2>
+<br>
+
+<form method="POST"> {% csrf_token %}
+    <br>
+    <input type="submit" value="Enable"/>
+</form>
